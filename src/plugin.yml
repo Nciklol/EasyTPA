@@ -1,0 +1,21 @@
+name: EasyTPA
+version: 1.0
+author: Nciklol
+main: me.nciklol.easytpa.Main
+api-version: 1.19
+commands:
+  tpa:
+    description: Let's you teleport to someone if they agree to it!
+    usage: /tpa <username>
+    permission: easytpa.tpa
+  tpaccept:
+    description: Let's you accept your current teleport request!
+    usage: /tpaccept
+    permission: easytpa.tpaccept
+permissions:
+  easytpa.tpa:
+    description: Allows people to use /tpa
+    default: true
+  easytpa.tpaccept:
+    description: Allows people to use /tpaccept
+    default: true

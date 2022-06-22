@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="EasyTPA:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/EasyTPA_jar</output-path>
+    <root id="archive" name="EasyTPA.jar">
+      <element id="module-output" name="EasyTPA" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/spigot-api-1.19-R0.1-20220618.105326-28-shaded.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/plugin.yml" />
+    </root>
+  </artifact>
+</component>
